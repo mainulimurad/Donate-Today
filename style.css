@@ -12,13 +12,92 @@ body {
   background-size: cover;
   background-position: top;
   padding: 250px 0;
+  text-align: center;
+  color: #fff;
 }
 
 .top-banner-heading {
   font-size: 60px;
-  line-height: 65px;
+  line-height: 70px;
+  margin-bottom: -10px;
+}
+
+.top-banner-paragraph{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.donate-button{
+  text-decoration: none;
   color: #fff;
+  background-color: #FF5959;
+  padding: 15px 30px;
+  border-radius: 7px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+/* top banner end */
+
+/* donate amount start */
+.donate-amount{
+  padding: 70px;
   text-align: center;
 }
 
-.top-banner-paragraph{}
+.heading{
+  font-size: 60px;
+  line-height: 60px;
+  color: #000;
+  margin-bottom: -10px;
+}
+
+.text-part{
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.amount-group{
+  width: 100%;
+  display: block;
+}
+
+.amount-number{
+  display: inline-block;
+  background-color: #FAFAFA;
+  color: #707070;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  border: 1px solid #FAFAFA;
+}
+
+
+
+.amount-number-color{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FF5959;
+  background-color: #FFEEEE;
+  border-radius: 5px;
+  border: 1px solid #FF5959;
+}
+
+.donate-amount .input-field{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.donate-amount .input-field .others-input
+input{
+  width: 70%;
+  display: inline-block;
+  position: center;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 17px;
+  color: #707070;
+}
+/* donate amount end */

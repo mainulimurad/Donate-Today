@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* top banner start */
+.top-banner {
+  max-height: 100vh;
+  background-image: url(./images/top-bannger-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 250px 0;
+}
+
+.top-banner-heading {
+  font-size: 60px;
+  line-height: 65px;
+  color: #fff;
+  text-align: center;
+}
+
+.top-banner-paragraph{}

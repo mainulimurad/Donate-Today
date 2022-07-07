@@ -50,12 +50,14 @@ body {
   line-height: 60px;
   color: #000;
   margin-bottom: -10px;
+  text-align: center;
 }
 
 .text-part{
   font-size: 18px;
   margin-bottom: 30px;
-  color: #000;
+  color: #000; 
+  text-align: center;
 }
 
 .amount-group{
@@ -101,3 +103,51 @@ input{
   color: #707070;
 }
 /* donate amount end */
+
+/* donate plan start  */
+.donate-plan{
+  padding: 70px 0;
+}
+
+
+.donate-feature{
+  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.donate-boxes{
+  margin: 0 18%;
+  display: flex;
+  text-align: left;
+  width: auto;
+  justify-content: center;
+}
+
+.donate-feature img{
+  align-items: left;
+}
+.donate-feature-1{
+  background-color: #4f9da660;
+  width: 25%;
+  margin: 0 10px;
+  padding: 30px 25px;
+  border-radius: 8px;
+}
+
+.donate-feature-2{
+  background-color: #ff595959;
+  width: 25%;
+  margin: 0 10px;
+  padding: 30px 25px;
+  border-radius: 8px;
+}
+
+.donate-feature-3{
+  background-color: #FFF4D6;
+  width: 25%;
+  margin: 0 10px;
+  padding: 30px 20px;
+  border-radius: 8px;
+}
+/* donate plan end  */
